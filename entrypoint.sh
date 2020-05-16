@@ -9,8 +9,6 @@ _main() {
 
         echo "::set-output name=changes_detected::true";
 
-        _switch_to_branch
-
         _add_files
 
         _local_commit
